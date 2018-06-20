@@ -1,10 +1,10 @@
 function dwarfRollCall(dwarves) {
-  var dwarves = [];
+  var dwarvesLine = [];
 
     for (var i = 0; i < dwarves.length; i++) {
-      dwarves.push(i + 1 + ". " + dwarves[i]);
+      dwarvesLine.push(i + 1 + ". " + dwarves[i]);
     }
-  return dwarves.join (", ");
+  return dwarvesLine.join (", ");
 }
 
 
